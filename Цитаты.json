@@ -1,0 +1,5 @@
+$(eval const movieList = 
+    $(
+        urlfetch json https://api.jsonserve.com/qOdRE5
+        movieList[Math.floor(Math.random() * movieList.length)]
+    )
